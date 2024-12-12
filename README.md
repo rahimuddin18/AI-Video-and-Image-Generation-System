@@ -11,21 +11,6 @@ Responsive Design: The web interface is designed to be responsive, adapting to b
 Project Structure
 
 
-AI-Content-Generator/
-│
-├── app.py                     # Main Flask application script
-├── requirements.txt           # List of dependencies required for the project
-├── templates/                 # Folder containing HTML templates
-│   ├── index.html             # Landing page for the user to input data
-│   ├── content.html           # Content display page for generated content
-├── static/                    # Folder to store generated videos and images
-│   └── <user_id>/             # User-specific folder for storing content
-│       ├── video1.mp4         # Example video
-│       ├── video2.mp4         # Example video
-│       ├── image1.png         # Example image
-│       └── image2.png         # Example image
-├── database.db                # SQLite database for storing user data and content status
-└── README.md                  # Documentation for the project
 Setup
 1. Clone the repository
 Clone this repository to your local machine:
